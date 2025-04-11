@@ -13,7 +13,7 @@ ConnectToDb();
 
 
 app.use(cors({
-    origin: 'http://localhost:5173', // '*' for all
+    origin: 'https://yogieshwar.github.io/ResumeBuilder/', // '*' for all
     
   }));
 app.use(express.json());
