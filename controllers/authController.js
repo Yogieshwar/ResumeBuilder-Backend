@@ -28,7 +28,8 @@ import User from "../models/Users.js";
         res.status(200).json({
             success:true,
             message:"User created sucessfully",
-            token
+            token,
+            newUser,
 
         })
     }catch(e){
