@@ -13,8 +13,8 @@ ConnectToDb();
 
 
 app.use(cors({
-    origin: '*', // '*' for all
-    credentials: true, // if you're using cookies or headers
+    origin: 'http://localhost:5173', // '*' for all
+    
   }));
 app.use(express.json());
 
