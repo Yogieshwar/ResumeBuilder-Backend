@@ -13,7 +13,7 @@ ConnectToDb();
 
 
 app.use(cors({
-    origin: 'https://yogieshwar.github.io/ResumeBuilder/', // '*' for all
+    origin: 'https://yogieshwar.github.io', // '*' for all
     
   }));
 app.use(express.json());
