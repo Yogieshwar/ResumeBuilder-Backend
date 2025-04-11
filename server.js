@@ -12,7 +12,10 @@ const app=express();
 ConnectToDb();
 
 
-app.use(cors());
+app.use(cors({
+    origin: '*', // '*' for all
+    credentials: true, // if you're using cookies or headers
+  }));
 app.use(express.json());
 
 //routes
